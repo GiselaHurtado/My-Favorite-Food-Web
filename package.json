@@ -1,0 +1,19 @@
+{
+  "name": "my-favorite-food-web",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiselaHurtado/My-Favorite-Food-Web.git"
+  },
+  "author": "Gisela Soledad Hurtado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiselaHurtado/My-Favorite-Food-Web/issues"
+  },
+  "homepage": "https://github.com/GiselaHurtado/My-Favorite-Food-Web#readme"
+}

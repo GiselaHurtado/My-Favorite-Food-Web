@@ -4,7 +4,9 @@
   "description": "learning npm",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/style.scss ./public/css/styles.css",
+    "sass-w": "sass --watch ./src/sass/style.scss ./public/css/styles.css"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/GiselaHurtado/My-Favorite-Food-Web/issues"
   },
-  "homepage": "https://github.com/GiselaHurtado/My-Favorite-Food-Web#readme"
+  "homepage": "https://github.com/GiselaHurtado/My-Favorite-Food-Web#readme",
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
 }

@@ -11,7 +11,6 @@
 
 /*# sourceMappingURL=styles.css.map */
 .columna1-ingredientes {
-    background-color: lightcoral;
     float: left;
     width: 25%;
     padding: 20px;
@@ -19,7 +18,6 @@
 }
 
 .columna2-ingredientes {
-    background-color: red;
     float: center;
     width: 50%;
     padding: 20px;
@@ -39,11 +37,40 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-.oclock {
-    background-color: blueviolet;
+.Time {
+    margin-top: -37vw;
+    margin-left: 55vw;
+    position: fixed;
 }
 
-.Time {
-    margin-top: -20vw;
-    margin-left: 55vw;
+.columna1-preparacion {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.columna2-preparacion {
+    float: right;
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 400%;
+    height: 30px;
+    background-color: red;
+    /* Cambia el color del texto según prefieras */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.autor {
+    margin-left: 10px;
+    /* Alinea el texto del autor a la izquierda */
+    padding-left: 10px;
+    /* Añade un poco de espacio al lado izquierdo */
 }

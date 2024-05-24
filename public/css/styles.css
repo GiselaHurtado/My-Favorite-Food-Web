@@ -1,18 +1,26 @@
+.banner img {
+    width: 500px;
+    height: 250px;
+}
+
 .banner {
-    image-orientation: 0rad;
-    image-resolution: 1000px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
-.columna1-ingredentes {
+.columna1-ingredientes {
+    background-color: lightcoral;
     float: left;
-    width: 50%;
+    width: 25%;
     padding: 20px;
     box-sizing: border-box;
 }
 
-.columna2-ingredentes {
-    float: right;
+.columna2-ingredientes {
+    background-color: red;
+    float: center;
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
@@ -29,4 +37,13 @@ li {
 
 input[type="checkbox"] {
     margin-right: 5px;
+}
+
+.oclock {
+    background-color: blueviolet;
+}
+
+.Time {
+    margin-top: -20vw;
+    margin-left: 55vw;
 }

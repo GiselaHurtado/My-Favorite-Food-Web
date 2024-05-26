@@ -1,99 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width”>
     <link rel="stylesheet" href="./public/css/styles.css">
-    <title>Receta</title>
+    <title>Receta: Hummus</title>
 </head>
 <header>
     <h2>Receta: Hummus</h2>
 </header>
 
 <body>
-    <div class="banner">
-        <img src="./public/css/images/banner-hummus.jpg" alt="Hummus">
-    </div>
-    <div class="Ingredientes">
-        <h2>Ingredientes</h2>
-    </div>
-    <div class="columna1-ingredientes">
-        <ul>
-            <li>
-                <input type="checkbox" id="ingrediente1">
-                <label for="ingrediente1">400 g de garbanzos cocidos </label>
-            </li>
-            <li>
-                <input type="checkbox" id="ingrediente2">
-                <label for="ingrediente2">1 diente de ajo</label>
-            </li>
-            <li>
-                <input type="checkbox" id="ingrediente3">
-                <label for="ingrediente3">2 cucharadas de tahini (pasta de sésamo)</label>
-            </li>
-        </ul>
-    </div>
-    <div class="columna2-ingredientes">
-        <ul>
-            <li>
-                <input type="checkbox" id="ingrediente3">
-                <label for="ingrediente3">2 cucharadas de tahini (pasta de sésamo)</label>
-            </li>
-            <li>
-                <input type="checkbox" id="ingrediente3">
-                <label for="ingrediente3">Sal al gusto</label>
-            </li>
-            <li>
-                <input type="checkbox" id="ingrediente3">
-                <label for="ingrediente3">50 ml de agua</label>
-            </li>
-        </ul>
-    </div>
-
-    <div class="Time">
-        <h2>Tiempo</h2>
-        <div class="oclock">
-            <img src="./public/css/images/oclock-image.png" alt="oclock">
+    <div class="grid-container">
+        <div class="item1">
+            <img src="./src/ts/css/images/banner-hummus.jpg" alt="Descripción de la imagen">
         </div>
-
-    </div>
-
-    <div class="preparación">
-        <h2>Preparación</h2>
-    </div>
-    <div class="columna1-preparacion">
-        <ul>
-            <div class="paso1">
-                <h2>Paso 1:</h2></label>
+        <div class="item2">
+            <h2>Ingredientes</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="ingrediente1">
+                    <label for="ingrediente1">400 g de garbanzos cocidos</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ingrediente2">
+                    <label for="ingrediente2">1 diente de ajo</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ingrediente3">
+                    <label for="ingrediente3">2 cucharadas de tahini (pasta de sésamo)</label>
+                </li>
+            </ul>
+        </div>
+        <div class="item3">
+            <ul>
+                <li>
+                    <input type="checkbox" id="ingrediente4">
+                    <label for="ingrediente4">2 cucharadas de tahini (pasta de sésamo)</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ingrediente5">
+                    <label for="ingrediente5">Sal al gusto</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="ingrediente6">
+                    <label for="ingrediente6">50 ml de agua</label>
+                </li>
+            </ul>
+        </div>
+        <div class="item4">
+            <h2>Right</h2>
+            <img src="ruta-a-tu-imagen.jpg" alt="Descripción de la imagen">
+            <br>
+            <img src="ruta-a-tu-imagen.jpg" alt="Descripción de la imagen">
+        </div>
+        <div class="item5">
+            <h2>Paso 1:</h2>
+            <ul>
                 <p>Escurre los garbanzos cocidos y enjuágalos con agua fría.
                     En una batidora, coloca los garbanzos, el ajo, el tahini, el zumo de limón, el comino, la sal y la
-                    pimienta.
-                    Tritura hasta obtener una crema suave y homogénea.</p>
-                <div class="paso1">
-                    <h2>Paso 2:</h2></label>
-                    <p>Añadir agua (opcional): Si la mezcla queda muy espesa, agrega un poco de agua (de 10 ml en 10 ml)
-                        hasta obtener la textura deseada..</p>
-        </ul>
-    </div>
-    <div class="columna2-preparacion">
-        <ul>
-            <div class="paso3">
-                <h2>Paso 3:</h2></label>
-                <p>Prueba la crema y ajusta la sal, el limón o el comino a tu gusto.</p>
-                <div class="paso4">
-                    <h2>Paso 4:</h2></label>
-                    <p>Sirve el hummus en un plato o bol. Puedes decorarlo con un chorrito de aceite de oliva virgen
-                        extra,pimentón dulce, perejil fresco o semillas de sésamo.</p>
-        </ul>
-    </div>
-
-    <footer>
-        <div class="footer">
-            <div class="autor" id="autor">Autor: Gisela S. Hurtado</div>
-            <div class="iconos-redes-sociales"></div>
+                    pimienta.Tritura hasta obtener una crema suave y homogénea.</p>
+                <h2>Paso 2:</h2>
+                <p>Añadir agua (opcional): Si la mezcla queda muy espesa, agrega un poco de agua (de 10 ml en 10 ml)
+                    hasta obtener la textura deseada.</p>
+            </ul>
         </div>
-    </footer>
+        <div class="item6">
+            <h2>Paso 3:</h2>
+            <ul>
+                <p>Prueba la crema y ajusta la sal, el limón o el comino a tu gusto.</p>
+                <h2>Paso 4:</h2>
+                <p>Sirve el hummus en un plato o bol. Puedes decorarlo con un chorrito de aceite de oliva virgen
+                    extra,pimentón dulce, perejil fresco o semillas de sésamo.</p>
+            </ul>
+        </div>
+        <div class="item7">
+            <div class="autor" id="autor">Autor: Gisela S. Hurtado</div>
+            <div class="iconos-redes-sociales">
+                <img src="ruta-a-tu-imagen.jpg" alt="Descripción de la imagen">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

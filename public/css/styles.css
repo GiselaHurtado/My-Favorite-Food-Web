@@ -1,6 +1,7 @@
 header h2 {
-  color: yellowgreen;
-  background-color: black;
+  color: black;
+  text-align: center;
+  text-decoration-line: underline violet;
 }
 
 .item1 {
@@ -36,7 +37,7 @@ header h2 {
   max-width: 100%;
   grid-template-areas: "header header header header header header" "menu menu main main right right" "prep1 prep1 prep1 prep2 prep2 prep2" "footer footer footer footer footer footer";
   gap: 10px;
-  background-color: #2196F3;
+  background-color: white;
   padding: 10px;
 }
 
@@ -60,14 +61,13 @@ li {
   width: 100%;
   margin-left: 0%;
   margin-right: 0%;
-  background: red;
+  background: #FFEBEE;
 }
 
 .item1 img {
-  width: 80%;
-  height: 90%;
+  width: 90%;
+  height: max-content;
   margin-left: 50%;
-  background-color: aquamarine;
 }
 
 .item2 {
@@ -82,7 +82,6 @@ li {
   text-align: center;
   margin-top: 30%;
   font-size: medium;
-  background: white;
   text-align: justify;
 }
 
@@ -90,20 +89,17 @@ li {
   font-size: medium;
   height: 30%;
   width: 100%;
-  background: violet;
 }
 
 .item4 img {
   width: 100%;
   height: 340%;
-  background: green;
 }
 
 .item5 {
   font-size: medium;
   height: 100%;
   width: 100%;
-  background: grey;
   text-align: justify;
 }
 
@@ -111,7 +107,6 @@ li {
   font-size: medium;
   height: 100%;
   width: 100%;
-  background: lightgreen;
   text-align: justify;
 }
 
@@ -119,11 +114,9 @@ li {
   font-size: smaller;
   display: flex;
   padding: initial;
-  background: yellow;
 }
 
 .iconos-redes-sociales {
-  background-color: red;
   margin-left: 60%;
 }
 
@@ -149,15 +142,12 @@ li {
 }
 
 /* Estilos para pantallas sm o mayores */
-@media (min-width: 576px) {
+@media (min-width: 430px) {
   .item1 {
     grid-area: header;
     height: auto;
     font-size: 10px; /* Ajustado para pantallas sm */
     width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-    background: red;
   }
   .item1 img {
     width: 50%;
@@ -175,7 +165,6 @@ li {
     text-align: center;
     margin-top: 20%; /* Ajustado para pantallas sm */
     font-size: large; /* Ajustado para pantallas sm */
-    background: white;
     text-align: justify;
   }
   /* ...otros estilos... */
@@ -184,7 +173,6 @@ li {
 @media (min-width: 992px) {
   .item1 {
     font-size: 30px; /* Ajustado para pantallas lg */
-    background: darkred; /* Ajustado para pantallas lg */
   }
   .item2 {
     padding: 10%; /* Ajustado para pantallas lg */
@@ -194,9 +182,7 @@ li {
     font-size: 75%; /* Ajustado para pantallas lg */
     margin-top: 10%; /* Ajustado para pantallas lg */
     font-size: x-large; /* Ajustado para pantallas lg */
-    background: lightgrey; /* Ajustado para pantallas lg */
   }
-  /* ...otros estilos... */
 }
 
 /*# sourceMappingURL=styles.css.map */
